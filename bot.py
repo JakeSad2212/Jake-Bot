@@ -72,7 +72,7 @@ async def unban(ctx, *, member):
 
 @client.command()
 async def help(ctx):
-    await ctx.send("Here are the commands that I can do!\n&ping- shows the current ping of the bot!\n&8ball- ask it a question and you will get an answer!\n&clear- clears a specified amount of messages!\n&kick- kicks the mentioned member!\n&ban- bans the mentioned member!")
+    await ctx.send("**Here are the commands that I can do!**\n&ping- shows the current ping of the bot!\n&8ball- ask it a question and you will get an answer!\n&clear- clears a specified amount of messages!\n&kick- kicks the mentioned member!\n&ban- bans the mentioned member!")
 
 with open("token.0", "r", encoding="utf-8") as f:
     bottoken = f.read()
