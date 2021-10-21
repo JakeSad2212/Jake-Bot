@@ -72,7 +72,7 @@ async def unban(ctx, *, member):
 
 @client.command()
 async def pog(ctx):
-    await ctx.send("Yes, very pog indeed!!")
+    await ctx.send("Yes, very pog indeed!!!")
 
 
 with open("token.0", "r", encoding="utf-8") as f:
