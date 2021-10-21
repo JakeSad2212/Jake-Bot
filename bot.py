@@ -70,6 +70,10 @@ async def unban(ctx, *, member):
             else:
                 await ctx.send('I could not find that user!')
 
+@client.command()
+async def bing(ctx):
+    await ctx.send("bong")
+
 
 with open("token.0", "r", encoding="utf-8") as f:
     bottoken = f.read()
