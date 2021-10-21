@@ -70,4 +70,7 @@ async def unban(ctx, *, member):
             else:
                 await ctx.send('I could not find that user!')
 
-client.run('OTAwMDk3Njc0NjE3OTUwMzE4.YW8XSA.-fd8X-4Qj-xlYBs_zvrW6OB79pI')
+with open("token.0", "r", encoding="utf-8") as f:
+    bottoken = f.read()
+
+client.run(bottoken)
